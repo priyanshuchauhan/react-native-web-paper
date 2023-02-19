@@ -1,5 +1,7 @@
 Steps
 
+https://github.com/priyanshuchauhan/react-native-web-paper
+
 npx create-expo-app paper-expo
 cd paper-expo
 npx expo start
@@ -14,3 +16,19 @@ npx expo install react-native-screens react-native-safe-area-context
 yarn add @react-navigation/native-stack
 npm run web
 npm run android
+
+npm install @react-navigation/native --save
+npx expo install react-native-screens react-native-safe-area-context
+yarn add @react-navigation/native-stack
+npm install @react-navigation/drawer --save
+npm install @react-navigation/bottom-tabs --save
+npx expo install react-native-gesture-handler react-native-reanimated
+yarn start --reset-cache
+npx expo install react-native-reanimated
+npx expo start --clear
+
+npm install --save-dev @babel/plugin-proposal-export-namespace-from
+// update bable config
+npx expo start --clear
+npm run web
+
