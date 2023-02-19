@@ -1,0 +1,16 @@
+Steps
+
+npx create-expo-app paper-expo
+cd paper-expo
+npx expo start
+npm run web
+npx expo install react-native-web@~0.18.9 react-dom@18.1.0 @expo/webpack-config@^0.17.2
+yarn add react-native-paper
+yarn add react-native-safe-area-context
+yarn add react-native-vector-icons
+npm install @react-navigation/native
+npm install @react-navigation/native --save
+npx expo install react-native-screens react-native-safe-area-context
+yarn add @react-navigation/native-stack
+npm run web
+npm run android
